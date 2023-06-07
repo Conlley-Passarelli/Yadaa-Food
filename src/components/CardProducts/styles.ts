@@ -8,4 +8,43 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    img {
+        width: 100%;
+    }
+
+    > div {
+        padding: 16px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+            h1 {
+                color: #fff;
+            } 
+        
+            p {
+                color: #fff;
+                font-weight: 300;
+            }
+        
+            span {
+                font-weight: 700;
+                font-size: 24px;
+                color: #fff;
+            }
+        
+            button {
+                border: none;
+                background-color: yellow;
+                height: 44px;
+                padding: 0 32px;
+                border-radius: 25px;
+        
+                font-size: 16px;
+                font-weight: 700;
+                margin-top: 16px;
+            }
+    }
 `
