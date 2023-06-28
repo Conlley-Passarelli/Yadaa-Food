@@ -27,6 +27,8 @@ export const Container = styled.div`
             p {
                 color: #fff;
                 font-weight: 300;
+                text-align: center;
+                font-size: 14px;
             }
         
             span {
